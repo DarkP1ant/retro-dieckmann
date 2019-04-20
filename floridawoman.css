@@ -5,6 +5,13 @@ article {
     padding: 4px;
 }
 
+nav{
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    background-color: white;
+    border-radius: 2vw;
+}
+
 header{
     background-color:#fadb64;
     height: 17vh;
@@ -16,10 +23,13 @@ img{
     white-space: nowrap;
 }
 
-h1 {color: red;}
-
 p {
-    color: black;
+    text-indent: 2em;
+}
+
+.citations{
+    padding-left: 2em;
+    text-indent: -2em;
 }
 
 table, th, td {
@@ -29,13 +39,49 @@ table, th, td {
 .articles   {
     width: 95vw;
     height: 20vh;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    font-family: serif;
-    font-size: 18px;
+    font-family: sans-serif;
+    font-size: 20px;
 }
 
-a{
+.aimg{
     float: left;
     margin-right: 2vw;
+}
+
+.claim{
+    background-color: white;
+    border-radius: 2vw;
+    overflow: hidden;
+    margin-bottom: 2vh;
+}
+
+.inclaim{
+    font-family: sans-serif;
+    text-indent: 0px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+img.inclaim{
+    float: right;
+}
+
+
+.footerlink{
+    color: black;
+    font-family: sans-serif;
+    font-size: 14pt;
+    margin-left: 2vw;
+}
+
+.footerlink:visited{
+    color: black;
+}
+
+.footerlink:hover{
+    color: black;
+}
+
+.footerlink:active {
+    color: black;
 }
