@@ -24,16 +24,18 @@ img{
 }
 
 p {
+    padding-left: 2em;
     text-indent: 2em;
 }
 
 .citations{
-    padding-left: 2em;
+    padding-left: 4em;
     text-indent: -2em;
 }
 
 table, th, td {
     border: 1px solid black;
+    text-align: center;
 }
 
 .articles   {
